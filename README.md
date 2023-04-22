@@ -1,8 +1,8 @@
 # vue3-absurd-product-fix
 
 Consider the following data:
-``` json
-const absurdProducts = [
+``` js
+[
   {
     a1: "Phone",
     b1: "Apple iPhone 13",
@@ -14,8 +14,8 @@ const absurdProducts = [
     b1: "Dell XPS 15",
     c1: 1499,
     d1: "https://example.com/dell-xps-15.jpg",
-  },
-];
+  }
+]
 ```
 
 By keeping the original data as it is, create a vue3 computed property that fixes the absured keys with proper keys as follows:
